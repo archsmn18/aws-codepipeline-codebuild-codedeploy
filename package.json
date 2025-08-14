@@ -1,0 +1,15 @@
+{
+  "name": "aws-codepipeline-demo",
+  "version": "1.0.0",
+  "description": "Basic Node.js project for AWS CodePipeline and CodeBuild",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "echo 'Building project...' && mkdir -p dist && echo '<h1>Hello AWS CodePipeline</h1>' > dist/index.html",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "author": "Archisman",
+  "license": "MIT",
+  "dependencies": {}
+}
+
