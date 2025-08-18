@@ -1,10 +1,10 @@
 {
   "pipeline": {
     "name": "MyPipeline",
-    "roleArn": "arn:aws:iam::781250301770:role/AWSCodePipelineServiceRole-us-east-1-MyPipeline",
+    "roleArn": "arn:aws:iam::781250301770:role/IAM-ROLE-EC2",
     "artifactStore": {
       "type": "S3",
-      "location": "codepipeline-us-east-1-781250301770"
+      "location": "my-artifact-bucket-cli-demo"
     },
     "stages": [
       {
