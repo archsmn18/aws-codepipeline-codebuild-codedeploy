@@ -4,7 +4,7 @@
     "roleArn": "arn:aws:iam::781250301770:role/IAM-ROLE-EC2",
     "artifactStore": {
       "type": "S3",
-      "location": "my-artifact-bucket-cli-demo"
+      "location": "codepipeline-us-east-1-2a18f68e91ef-4db7-bed8-ced511752fc8"
     },
     "stages": [
       {
