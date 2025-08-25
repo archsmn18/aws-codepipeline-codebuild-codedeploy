@@ -1,4 +1,5 @@
 version: 0.0
+
 files:
   - source: index.html
     destination: /var/www/html/
@@ -8,3 +9,10 @@ hooks:
     - location: scripts/install_httpd.sh
       timeout: 300
       runas: root
+    - location: ""
+      runas: root
+      timeout: 300
+      script: |
+        yum install -y httpd
+        systemctl enable httpd
+        systemctl start httpd
